@@ -39,7 +39,7 @@ while cap.isOpened():
         name = labels[id_]
         color = (0, 0, 0)
         stroke = 2
-        cv2.putText(frame, str(int(conf)) + name, (x-5,y-5), font, 1, color, stroke, cv2.LINE_AA)
+        cv2.putText(frame, str(int(conf)) + name, (x-5, y-5), font, 1, color, stroke, cv2.LINE_AA)
 
         color = (255, 0, 0)
         stroke = 2
